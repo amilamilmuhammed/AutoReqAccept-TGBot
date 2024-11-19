@@ -6,9 +6,9 @@ id_pattern = re.compile(r'^.\d+$')
 class Config(object):
 
     # Client Config 
-    API_ID = int(os.environ.get('API_ID', 28892113'')) # ⚠️ Required
-    API_HASH = os.environ.get('API_HASH',dc4cb3e9a4144280688ee20415529b15 '') # ⚠️ Required
-    BOT_TOKEN = os.environ.get('BOT_TOKEN',7576309745:AAFaOpG6Z0o-cakFOe2aQoOjF3EiKanpblo '') # ⚠️ Required
+    API_ID = int(os.environ.get('API_ID','28892113')) # ⚠️ Required
+    API_HASH = os.environ.get('API_HASH','dc4cb3e9a4144280688ee20415529b15') # ⚠️ Required
+    BOT_TOKEN = os.environ.get('BOT_TOKEN','7576309745:AAFaOpG6Z0o-cakFOe2aQoOjF3EiKanpblo') # ⚠️ Required
 
     # database config
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://amilmuhammed3:cHaUKJYudmXDICa4@cluster0.mbo75.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # ⚠️ Required
