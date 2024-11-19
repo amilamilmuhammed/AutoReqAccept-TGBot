@@ -16,7 +16,7 @@ class Config(object):
     # Other Config 
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "@AttQwe_bot") # ⚠️ Required
     BOT_UPTIME  = time.time()
-    OWNER = int(os.environ.get('OWNER', '7600777042')) # ⚠️ Required
+    OWNER = int(os.environ.get('OWNER','7600777042')) # ⚠️ Required
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "")) # ⚠️ Required
     APPROVED_WELCOME_TEXT = os.environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYou're Auto Approved. ✅")
     LEAVING_BY_TEXT = os.environ.get("APPROVED_WELCOME_TEXT", "👋 Bye {mention} !\nSee You Soon by {title}\n\nYou Left. ⛔")
